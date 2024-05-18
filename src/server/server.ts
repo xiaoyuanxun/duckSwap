@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 //获取代币信息，入参：address,链id
 //获取代币的信息并返回？ 考虑接入coingeck等数据平台
 
-app.post('/submit', (req, res) => {
+app.post('/creatWallet', (req, res) => {
   const userData = req.body;
   console.log('Received data:', userData);
 
