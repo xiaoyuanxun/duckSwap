@@ -12,3 +12,9 @@ docs/
 
 # Dotenv file
 .env
+
+cache
+
+.DS_Store
+
+lib
